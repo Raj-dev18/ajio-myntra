@@ -1,0 +1,80 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.spec.bak
+
+# PyInstaller
+*.manifest
+*.toc
+warn-*.txt
+*.pyz
+*.pyzw
+
+# Application logs
+*.log
+logs/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Browser and scraper temporary data
+screenshots/
+downloads/
+browser_data/
+user_data/
+chrome_profile/
+playwright/.cache/
+
+# Database and temporary files
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+*.bak
+
+# Excel and generated reports
+*.xlsx
+*.xls
+*.csv
+
+# Node.js (if used for frontend tools)
+node_modules/
+
+# Local Python environments and caches
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# Keep dependency definitions
+!requirements.txt
